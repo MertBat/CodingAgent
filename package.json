@@ -1,0 +1,22 @@
+{
+  "name": "ai-github-issue-agent",
+  "version": "1.0.0",
+  "description": "AI GitHub Issue Agent - Otomatik issue çözümleyici",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ai", "github", "issue", "agent", "aider"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0",
+    "dotenv": "^16.4.0",
+    "axios": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
